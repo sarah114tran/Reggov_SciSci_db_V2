@@ -80,6 +80,18 @@ Technologies", doc 2022-12432 — that the original cleanup evidently never
 covered). With a reproducible build (deterministic citation_ids),
 re-running the build always reproduces the same result.
 
+`data/citation_data/citation_resolved_works_normalized.json` is generated
+from `data/citation_reclassification/merged_tiers_openalex_matched.json` by
+the source repo's `citations/citation_parsing/build_resolved_works_input.py`
+— it flattens two different match-record shapes (direct DOI/arXiv/Crossref
+matches, which carry a `status` field, and title-search-tier matches, which
+instead signal a confirmed match via `match_reason` and never set `status`)
+into one normalized row per resolved citation. Checking only `status` on the
+raw `merged_tiers_openalex_matched.json` undercounts matches substantially
+(it misses the entire title-search tier) — use `build_resolved_works_input.py`
+or treat this normalized file as the source of truth for what's actually
+matched, not `status` on the raw file.
+
 `data/first_author_propagation_review.json` is an **output**, not an input —
 `main.py` writes it during the NAICS step as a review file for ambiguous
 multi-author organization propagation.
