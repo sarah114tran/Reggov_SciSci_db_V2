@@ -60,6 +60,7 @@ citation_id,reason
 25351755-dc0b-5b74-bc4d-4baad87e1c84,nist_publication_id
 26a00607-0345-547e-86b1-f07b8a7cd468,fr_citation
 26dcc758-6470-5946-968e-09e88f1ac807,fr_citation
+278caa06-0588-59b1-84b4-6f3e85436e43,document_number
 27ff50a8-c515-5b31-b520-dfda3d08689d,document_number
 28a6e533-03dc-5d4d-80d1-5781dd160315,document_number
 28b820ed-3d24-505c-88f9-85420fefb831,document_number
@@ -87,6 +88,7 @@ citation_id,reason
 3607406b-112e-5ed2-bda7-8bf642d49aa2,document_number
 369f5393-6f6a-57f1-a489-a3c54419689a,document_number
 36af48a0-bc60-5c20-bc95-8f4bdf6decfc,document_number
+3a434ea6-d3e0-5aaf-95c6-6eeb2848e09f,document_number
 3d6d2eea-f242-5677-b566-7fc1f01fb86f,document_number
 3db0df82-83ab-5f7e-b6fc-caaa888c6e13,document_number
 3ddad534-5fa3-5a50-88ba-59d9844126f7,document_number
@@ -105,9 +107,11 @@ citation_id,reason
 44ff3f34-a60c-5415-8bf3-5a43ca30d72b,fr_citation
 455fe03a-9242-5536-a326-5dd713a90683,document_number
 45696bfc-e506-5892-8a8c-05124d11a133,document_number
+4608af3a-552a-5906-97d3-05c38fa97663,"title_overlap:1.00(4),rfi_keyword,date"
 46701492-c92b-52b2-a2b2-8033fbe8ecef,document_number
 47816725-802a-5efc-9297-088cd24dfa3b,"title_overlap:1.00(3),rfi_keyword"
 481c9321-d4ce-5af5-af59-b86c275df775,fr_citation
+49801c94-7a38-5cf4-ba4b-cf96a782c486,document_number
 4bee91f4-0fb1-5426-8f5e-448839edeb18,fr_citation
 4c537e61-9cc4-56b8-8b77-22d136cfe3e1,document_number
 4c86f019-672c-567a-aa96-5f1df54db771,document_number
@@ -140,6 +144,7 @@ citation_id,reason
 5eb4e113-3785-5d96-9d33-27c6a05b802c,fr_citation
 5eeeec2c-9308-553c-9f25-476e71c7c62e,document_number
 5f4c192a-ee29-5ffa-82b2-edf066ff35b0,fr_citation
+5faaeb80-342f-5492-ac37-3e826438f543,document_number
 5fc31063-ebae-558f-82a2-35923f16988a,fr_citation
 610fd2a4-a682-54db-b023-bfcd91c020c0,document_number
 612412b3-84fb-5632-b04b-40fb5252c6e1,document_number
@@ -167,6 +172,7 @@ citation_id,reason
 6c489f03-1120-5191-b01c-54d2bf96bc11,document_number
 6e622d13-dea8-58e7-a06b-833810feefd4,document_number
 6f3f2fc0-e257-58e5-99f4-43290731c6a1,nist_publication_id
+6f45b118-f3c5-53fb-9419-c548f83d0018,document_number
 6f8a67ce-44d5-5c65-a3b0-5215114062bc,document_number
 70ae6e0f-c267-5197-bb42-6ae703e265d9,fr_citation
 717571a6-63a5-5fbc-99dc-eded5dbeb68b,document_number
@@ -214,6 +220,7 @@ citation_id,reason
 89c73ea0-4dd0-5239-a757-bc3ad2618879,nist_publication_id
 89e8e9c5-0e8b-58ae-b502-1e8c6ad1e880,document_number
 8adb5040-8248-5ba6-acc0-7af82ae66497,fr_citation
+8c110c01-47e4-5e74-9ae8-29142001f6ff,document_number
 8c89cf37-6c23-564e-a62b-cdd6bf7f6891,document_number
 8da6297c-e157-5ebc-9733-4a21c30fac0e,document_number
 8db50450-7056-5043-857f-1c4533a6be3c,"title_overlap:1.00(7),date"
@@ -350,8 +357,10 @@ de43fef7-36a0-5876-8a78-64ff521e10b0,document_number
 dee6b86c-e0ea-5b83-b02b-042b04e213f0,"title_overlap:1.00(2),date"
 df0ad5b4-c6d4-5b48-b6fb-ecb2bc2dc596,"title_overlap:1.00(12),date"
 df242b76-ca98-58b5-8bd9-8ac7a8f01882,document_number
+df24af0d-1c77-5e87-85af-46ba01ec965a,document_number
 e0204825-01dd-59fb-9e74-230c0843d7d6,document_number
 e04d4398-2ac5-5c41-8ce1-d6a938674ae4,document_number
+e09a5041-da15-590a-bbed-83b9a7d39e13,document_number
 e1bbbdf0-5469-5a35-ac8c-66876bf34643,document_number
 e267479f-6a00-507c-9bd5-967ff8600493,nist_publication_id
 e32b90ed-41b6-538d-9438-60794b29dd2e,document_number
@@ -384,7 +393,9 @@ f22325dc-20bf-51a1-afed-a4ac85cf35d8,document_number
 f2305cb2-6b73-554a-8dc0-4bea5f4e7012,document_number
 f463966c-35fd-5ace-8173-19399955db5c,document_number
 f46ea15d-b4c1-526e-83bb-22791c847d71,document_number
+f4cde31d-27e6-5151-8a49-0d4f311ca93e,document_number
 f63d3feb-bfcd-524c-9c4d-550ddf8d3950,nist_publication_id
+f7cc5321-603d-5da2-bc4f-db2db65b8bb2,document_number
 f7ddf388-fd3a-5abb-a178-6ef826e74a7d,nist_publication_id
 f84e953a-ceff-5fc1-a2c3-ccf2569e2dd7,document_number
 f878e47b-9dca-5282-91d3-f2e9f84fe7b2,fr_citation
@@ -394,4 +405,5 @@ fa334176-4005-5bfb-9b3d-90d3a0ce8c21,"title_overlap:1.00(2),date"
 fbc63778-4a6b-549c-8c1f-bd8cafcaab41,"title_overlap:1.00(2),date"
 fcf35b52-a8f8-52a2-817e-fdbeb69ba00e,fr_citation
 fdc0fc54-c4cf-5539-9cc6-20700ecd1ccf,document_number
+fe02871a-21d3-5355-9787-8ada8a90e8d9,document_number
 ff2f7da6-546a-5dc2-9297-123ee6ed7144,document_number
