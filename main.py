@@ -20,6 +20,7 @@ from loaders.citation_reclassification import (
     load_news_reclassification,
     load_unclassified_cleanup,
 )
+from loaders.rfi_self_reference_cleanup import load_rfi_self_reference_cleanup
 from loaders.edu_resources_reclassification import load_edu_resources_reclassification
 from loaders.comment_authorship import load_comment_authorship
 from loaders.comment_authors import load_comment_authors
@@ -134,6 +135,11 @@ def run():
     load_openalex_matched_reclassification(session)
     load_news_reclassification(session)
     load_unclassified_cleanup(session)
+
+    # ── 3a-2b. Remove citations that are just self-references to the RFI/
+    #           docket notice itself (not external evidence).
+    print("\n── Removing RFI self-reference citations ─────────────────────────")
+    load_rfi_self_reference_cleanup(session)
 
     # ── 3a-3. Correction pass: research-like 'educational_institution_resource'
     #          rows confirmed as real papers via OpenAlex DOI lookup.

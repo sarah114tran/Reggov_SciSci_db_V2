@@ -50,6 +50,7 @@ python validate.py
 | Citations | `loaders/gemini_citations.py` | `data/citation_data/extracted_citations/final_citation_data.json` |
 | Citation classification backfill | `loaders/citation_classification_backfill.py` | `data/citation_data/claude_classified_citations_unverified.json` |
 | Citation reclassification (high-confidence) | `loaders/citation_reclassification.py` | `data/citation_reclassification/*.csv`, `merged_tiers_openalex_matched.json` |
+| RFI self-reference cleanup | `loaders/rfi_self_reference_cleanup.py` | `data/rfi_self_reference_citation_ids.csv` |
 | Educational-resource reclassification | `loaders/edu_resources_reclassification.py` | `data/citation_reclassification/edu_resources_classified.json` |
 | Resolved OpenAlex works | `loaders/citation_resolved_works.py` | `data/citation_data/citation_resolved_works_normalized.json` |
 | Comment authorship backfill | `loaders/comment_authorship.py` | `data/comment_authorship.json` |
@@ -57,6 +58,15 @@ python validate.py
 | NAICS / commenter classification | `loaders/naics_classification.py` | `data/processed_authorship_with_naics.json`, `data/unique_orgs_with_naics.json` |
 | Org classification corrections | `loaders/additional_org_classification.py` | `data/additional_classified_orgs_final.csv` |
 | Individual reclassification (2nd pass) | `loaders/individual_reclassification.py` | `data/classified_all.json` |
+
+`data/rfi_self_reference_citation_ids.csv` is a fixed, reviewed list of 300
+`citation_id`s that are self-references to the RFI/docket notice itself
+(either a link back to the comment's own federalregister.gov/regulations.gov
+page, or a bare "XX Fed. Reg. NNNNN"-style citation with no link) rather than
+citations to external evidence. `final_citation_data.json` still contains
+these rows, so this step deletes them by exact ID after loading — it is not
+a general category/link rule, since a broader rule matches thousands of
+legitimate citations elsewhere in the table.
 
 `data/first_author_propagation_review.json` is an **output**, not an input —
 `main.py` writes it during the NAICS step as a review file for ambiguous
