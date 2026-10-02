@@ -14,6 +14,22 @@ comment_citations.citation_id — no re-keying needed.
 pending a separate OpenAlex verification pass and should be loaded
 (and classified) from that pass's output once it's ready, not from here.
 
+predicted_type is this file's own 15-value taxonomy (government_report,
+website_or_blog, nonprofit_or_ngo_report, academic_book_or_chapter,
+conference_paper, working_paper_or_preprint, dataset,
+dissertation_or_thesis, legal_or_regulatory_document,
+industry_or_corporate_report, bare_author_year_fragment,
+non_citation_footnote, other_or_unresolved, news_article,
+academic_article) -- not the same controlled vocabulary as
+cited_source_catagory elsewhere in this table (website, research_article,
+government_resource, unclassified, news_article, legal_citation,
+educational_institution_resource, social_media). Only "news_article"
+happens to match both. Writing any other predicted_type straight into
+cited_source_catagory mixes two incompatible taxonomies in the same
+column, so -- same as academic_article -- every predicted_type other than
+a genuine vocabulary match is held back here as unverified, pending a
+real mapping/verification pass, rather than adopted as-is.
+
 JSON structure:
 [
   {
@@ -35,7 +51,14 @@ from pathlib import Path
 from sqlalchemy.orm import Session
 from models import CommentCitation
 
-SKIPPED_TYPES = {"academic_article"}
+# cited_source_catagory's real controlled vocabulary (see models.py /
+# citation_classifier.py). Anything else in predicted_type is this file's
+# own, incompatible taxonomy and is held back, not adopted.
+ALLOWED_TYPES = {
+    "website", "research_article", "government_resource", "unclassified",
+    "news_article", "legal_citation", "educational_institution_resource",
+    "social_media",
+}
 
 
 def load_citation_classification_backfill(
@@ -52,7 +75,7 @@ def load_citation_classification_backfill(
 
     for row in rows:
         predicted_type = row.get("predicted_type")
-        if predicted_type in SKIPPED_TYPES:
+        if predicted_type not in ALLOWED_TYPES:
             skipped_pending += 1
             continue
 
