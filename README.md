@@ -48,7 +48,6 @@ python validate.py
 | FR dockets | `loaders/docket.py` | `data/docket_metadata.json` |
 | Comments | `loaders/comments.py` | `data/normalized_comment_metadata.json` (+ `data/filtered_comment_metadata.json` for organization_root_name) |
 | Citations | `loaders/gemini_citations.py` | `data/citation_data/extracted_citations/final_citation_data.json` |
-| Citation classification backfill | `loaders/citation_classification_backfill.py` | `data/citation_data/claude_classified_citations_unverified.json` |
 | Citation reclassification (high-confidence) | `loaders/citation_reclassification.py` | `data/citation_reclassification/*.csv`, `merged_tiers_openalex_matched.json` |
 | RFI self-reference cleanup | `loaders/rfi_self_reference_cleanup.py` | `data/rfi_self_reference_citation_ids.csv` |
 | Educational-resource reclassification | `loaders/edu_resources_reclassification.py` | `data/citation_reclassification/edu_resources_classified.json` |
@@ -99,6 +98,13 @@ multi-author organization propagation.
 `data/raw_predictions/` (the two large `.jsonl` files) are not currently
 consumed by any loader in this pipeline — they're raw model-prediction
 outputs from an earlier stage, included for reference.
+
+`claude_classified_citations_unverified.json` was removed from this repo
+(and from the pipeline) entirely: its `predicted_type` field is a
+different, unverified taxonomy from `cited_source_catagory`'s real
+vocabulary, often with low/null confidence, and is not used as a
+classification source at all — not even for `predicted_type` values that
+happen to match the real vocabulary by coincidence (e.g. `news_article`).
 
 ## Schema
 

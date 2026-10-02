@@ -13,7 +13,6 @@ from loaders.docket import load_fr_dockets
 from loaders.comments import load_comments
 from loaders.gemini_citations import load_gemini_citations
 from loaders.citation_resolved_works import load_citation_resolved_works
-from loaders.citation_classification_backfill import load_citation_classification_backfill
 from loaders.citation_reclassification import (
     load_citation_reclassification,
     load_openalex_matched_reclassification,
@@ -40,7 +39,6 @@ DATA_FILES = {
     "fr_reg_metadata":              DATA_DIR / "docket_metadata.json",
     "comments":                     DATA_DIR / "normalized_comment_metadata.json",
     "gemini_citations":             DATA_DIR / "citation_data" / "extracted_citations" / "final_citation_data.json",
-    "citation_classification_backfill": DATA_DIR / "citation_data" / "claude_classified_citations_unverified.json",
     "citation_resolved_works":      DATA_DIR / "citation_data" / "citation_resolved_works_normalized.json",
     "authorship":                   DATA_DIR / "comment_authorship.json",
     "processed_authorship":         DATA_DIR / "processed_authorship.json",
@@ -120,16 +118,12 @@ def run():
         print(f"  [main] Cleared {deleted} existing comment_citations rows")
         load_gemini_citations(DATA_FILES["gemini_citations"], session, comment_key_map)
 
-    # ── 3a. Re-classification backfill for citations left "unclassified" ───
-    print("\n── Backfilling citation classifications ─────────────────────────")
-    if _exists("citation_classification_backfill"):
-        load_citation_classification_backfill(
-            DATA_FILES["citation_classification_backfill"], session
-        )
-
     # ── 3a-2. Human-reviewed high-confidence reclassification (academic/gov/
-    #          website/legal) — overrides the unverified backfill above,
-    #          including the academic_article rows it explicitly skipped.
+    #          website/legal). claude_classified_citations_unverified.json's
+    #          predicted_type is a different, unverified taxonomy from
+    #          cited_source_catagory's real vocabulary (and its own
+    #          confidence field is often low/null) -- it is not loaded here
+    #          at all; this pass is the only source of truth for these.
     print("\n── Applying high-confidence citation reclassification ───────────")
     load_citation_reclassification(session)
     load_openalex_matched_reclassification(session)
