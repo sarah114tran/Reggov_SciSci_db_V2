@@ -1,0 +1,513 @@
+[
+  {
+    "doc_id": "AI-RFI-2025-1257_1",
+    "name": "Laszlo Jakusovszky",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "AI-RFI-2025-1307_1",
+    "name": "Mariya Gudima",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "AI-RFI-2025-1772_1",
+    "name": "Viswatej Attili",
+    "affiliation": "Environmental Analyst National Congress of American Indians",
+    "contact_info": "Email:",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "AI-RFI-Response-2018-Lloyd-Etheredge-PolicyScience_1",
+    "name": "Lloyd S. Etheredge",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "American-Consumer-Institute-AI-RFI-2025_1",
+    "name": "The American Consumer InsƟtute Center for CiƟzen Research (ACI)",
+    "affiliation": "nonprofit 501 (c)(3) educaƟonal and research insƟtute",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "Anonymous-37-RFI-2025_1",
+    "name": "Anonymous",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "BIS-2024-0047-0025_1",
+    "name": "Convergence Analysis",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "DOC-2021-0007-0482_1",
+    "name": "Elizabeth Cronan",
+    "affiliation": "Vice President of Government Relations",
+    "contact_info": "elizabeth.cronan@geocomply.com",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "DOC-2021-0007-0482_1",
+    "name": "Ian Mair",
+    "affiliation": "Senior Director of Government Relations",
+    "contact_info": "ian.mair@geocomply.com",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "DOC-2021-0007-0482_1",
+    "name": "Jake Hulina",
+    "affiliation": "Government Relations Associate",
+    "contact_info": "jake.hulina@geocomply.com",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "DOC-2021-0007-0509_1",
+    "name": "Christian Dawson",
+    "affiliation": "Internet Infrastructure Coalition",
+    "contact_info": "dawson@i2coalition.com",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "DOC-2021-0007-0509_1",
+    "name": "Ann Morton",
+    "affiliation": "Internet Infrastructure Coalition",
+    "contact_info": "ann@i2coalition.com",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "DOC-2021-0007-0509_1",
+    "name": "Henry Shi",
+    "affiliation": "HWG LLP",
+    "contact_info": "(202) 730-1348 hshi@hwglaw.com",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "Emory-University-AI-RFI-2025_1",
+    "name": "Matthew Sag",
+    "affiliation": "Jonas Robitscher Professor of Law in Artificial Intelligence, Machine Learning, and Data Science, Emory University",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "Emory-University-AI-RFI-2025_1",
+    "name": "Faisal D'Souza, NCO",
+    "affiliation": "Office of Science and Technology Policy",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "HIA-AI-RFI-2025_1",
+    "name": "Brett Meeks",
+    "affiliation": "Executive Director",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NIST-2021-0004-0027_1",
+    "name": "Kathy Baxter",
+    "affiliation": null,
+    "contact_info": "https://blog.einstein.ai/author/kathy_baxter/",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NIST-2021-0007-0075_1",
+    "name": "Kennedy Ukelegharanya",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NIST-2021-0007-0075_1",
+    "name": "Angel Vu",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NIST-2023-0009-0104_1",
+    "name": "Electronic Privacy Information Center",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NIST-2023-0009-0112_1",
+    "name": "Laurie E. Locascio",
+    "affiliation": "Director of the National Institute of Standards and Technology (NIST) and Under Secretary of Commerce for Standards and Technology",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NIST-2023-0009-0112_1",
+    "name": "Adam Conner",
+    "affiliation": "Vice President, Technology Policy, The Center for American Progress",
+    "contact_info": "aconner@americanprogress.org: 202-669-5671",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NIST-2023-0009-0112_1",
+    "name": "Megan Shahi",
+    "affiliation": "Director, Technology Policy, The Center for American Progress",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NIST-2023-0009-0162_1",
+    "name": "Brian F. Rice",
+    "affiliation": "Vice President, Public Policy\nMeta Platforms, Inc.",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NIST-2023-0009-0169_1",
+    "name": "Joshua Clymer",
+    "affiliation": null,
+    "contact_info": "https://joshuaclymer.com",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NIST-2023-0009-0169_1",
+    "name": "Nick Gabrieli",
+    "affiliation": null,
+    "contact_info": "https://www.linkedin.com/in/nicholas-gabrieli-412a8927b/",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NIST-2024-0002-0060_1",
+    "name": "Megan Shahi",
+    "affiliation": "The Center for American Progress",
+    "contact_info": "mshahi@americanprogress.org",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NIST-2024-0002-0060_1",
+    "name": "Adam Conner",
+    "affiliation": "The Center for American Progress",
+    "contact_info": "aconner@americanprogress.org",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-0456_1",
+    "name": "Kenneth B. Tingey",
+    "affiliation": "PhD, MBA, Masters of Pacific Internaonal Affairs Profundies LLC",
+    "contact_info": "46 North 750 East Logan, Utah USA [kenneth.ngey@profundies.info](mailto:kenneth.tingey@profundities.info) 435-757-4096",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-0636_1",
+    "name": "David Hickton",
+    "affiliation": "founding director, University of Pittsburgh Institute for Cyber Law, Policy, and Security (Pitt Cyber)",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-0636_1",
+    "name": "Beth Schwanke",
+    "affiliation": "executive director of the University of Pittsburgh Institute for Cyber Law, Policy, and Security (Pitt Cyber)",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-0864_1",
+    "name": "Thomas K. Yonge",
+    "affiliation": null,
+    "contact_info": "thomas.k.yonge@gmail.com",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1120_1",
+    "name": "MATTHEW MITTELSTEADT",
+    "affiliation": "Research Fellow, Mercatus Center at George Mason University",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1120_1",
+    "name": "BRENT SKORUP",
+    "affiliation": "Senior Research Fellow, Mercatus Center at George Mason University",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1271_1",
+    "name": "Matt Schwartz",
+    "affiliation": "Policy Analyst",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1271_1",
+    "name": "Justin Brookman",
+    "affiliation": "Director of Technology Policy",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1285_1",
+    "name": "Will Adler",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1285_1",
+    "name": "Samir Jain",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1285_1",
+    "name": "Elizabeth Laird",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1285_1",
+    "name": "Emma Llansó",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1285_1",
+    "name": "Nathalie Maréchal",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1285_1",
+    "name": "Eric Null",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1285_1",
+    "name": "Matt Scherer",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1285_1",
+    "name": "Ridhi Shetty",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1285_1",
+    "name": "Hannah Quay-de la Vallee",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1341_1",
+    "name": "Victoria (\"Vicki\") Lipnic",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1341_1",
+    "name": "David Cohen",
+    "affiliation": null,
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0005-1341_1",
+    "name": "David Fortney",
+    "affiliation": "Co-Founder, The Institute",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0009-0158_1",
+    "name": "Brian Rice",
+    "affiliation": "Vice President, Public Policy Meta Platforms, Inc.",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0009-0206_1",
+    "name": "Grant Fergusson",
+    "affiliation": "Equal Justice Works Fellow",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0009-0206_1",
+    "name": "Calli Schroeder",
+    "affiliation": "EPIC Senior Counsel & Global Privacy Counsel",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0009-0206_1",
+    "name": "Maria Villégas Bravo",
+    "affiliation": "EPIC Law Fellow",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0009-0229_1",
+    "name": "Kevin Bankston",
+    "affiliation": "CDT's Senior Advisor on AI Governance",
+    "contact_info": "kbankston@cdt.org",
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0009-0333_1",
+    "name": "Dane O'Connor",
+    "affiliation": "founder of a tech firm",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0009-0333_1",
+    "name": "Andrew Kudless",
+    "affiliation": "architect",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0009-0333_1",
+    "name": "Stefania Bulbarella",
+    "affiliation": "Broadway projection designer",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0009-0333_1",
+    "name": "Chris Watkins",
+    "affiliation": "president and founder of a technology consulting firm",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0009-0333_1",
+    "name": "Erik Toscano",
+    "affiliation": "co-founder and creative director of a content production studio",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "NTIA-2023-0009-0333_1",
+    "name": "Ilva Dodaj",
+    "affiliation": "architect and lighting designer",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "Natcast-2-AI-RFI-2025_1",
+    "name": "Dr. Laurie Locascio",
+    "affiliation": "Under Secretary of Commerce for Standards and Technology and National Institute of Standards and Technology (NIST) Director",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "OMB-2020-0003-0007_1",
+    "name": "Brian R. Henry",
+    "affiliation": "Chair, Antitrust Law Section",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "OMB-2023-0020-0028_1",
+    "name": "David Hickton",
+    "affiliation": "Founding Director, Pitt Cyber",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "Ryan-Abbott-AI-RFI-2025_1",
+    "name": "Professor Ryan Abbott, MD, JD, PhD",
+    "affiliation": "Professor of Law & Health Sciences, School of Law, Faculty of Arts and Social Sciences, University of Surrey",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "The-Rise-of-Privacy-Tech-PET-RFI-Response-2022_1",
+    "name": "Lourdes M. Turrecha",
+    "affiliation": "Founder, The Rise of Privacy Tech",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "The-Rise-of-Privacy-Tech-PET-RFI-Response-2022_1",
+    "name": "Melanie Ensign",
+    "affiliation": "CEO, Discernible",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "The-Rise-of-Privacy-Tech-PET-RFI-Response-2022_1",
+    "name": "John Gevertz",
+    "affiliation": "Former Chief Privacy Officer/SVP, VISA and ADP",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "The-Rise-of-Privacy-Tech-PET-RFI-Response-2022_1",
+    "name": "Dr. K Royal",
+    "affiliation": "Chief Privacy Officer, Outschool, Inc.",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "The-Rise-of-Privacy-Tech-PET-RFI-Response-2022_1",
+    "name": "Dr. Mary Berk",
+    "affiliation": "Founder, Bluestreak Product Advisors",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "The-Rise-of-Privacy-Tech-PET-RFI-Response-2022_1",
+    "name": "Alexandra Ross",
+    "affiliation": "Senior Director, Senior Data Protection, Use & Ethics Counsel, Autodesk",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "The-Rise-of-Privacy-Tech-PET-RFI-Response-2022_1",
+    "name": "Gilbert Hill",
+    "affiliation": "Chief Strategy Officer, Pool Data",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "The-Rise-of-Privacy-Tech-PET-RFI-Response-2022_1",
+    "name": "Fatima Khan",
+    "affiliation": "Advisor, The Rise of Privacy Tech",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "The-Rise-of-Privacy-Tech-PET-RFI-Response-2022_1",
+    "name": "Debra Farber",
+    "affiliation": "Advisor, The Rise of Privacy Tech",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  },
+  {
+    "doc_id": "The-Rise-of-Privacy-Tech-PET-RFI-Response-2022_1",
+    "name": "Ece Gumusel",
+    "affiliation": "Researcher & Associate, The Rise of Privacy Tech",
+    "contact_info": null,
+    "source_file": "long_comment_extraction.json"
+  }
+]

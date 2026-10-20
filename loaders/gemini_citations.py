@@ -47,7 +47,10 @@ def load_gemini_citations(
     json_path: str | Path,
     session: Session,
     comment_key_map: dict[str, str],
+    id_prefix: str = "gemini",
 ) -> None:
+    """id_prefix namespaces citation_ids per source file (default keeps the
+    original "gemini_citation"/"gemini_unmatched" ids)."""
     json_path = Path(json_path)
     with open(json_path, encoding="utf-8") as f:
         records = json.load(f)
@@ -71,7 +74,7 @@ def load_gemini_citations(
             continue
 
         for idx, raw in enumerate(record.get("citations", [])):
-            citation_id = make_id("gemini_citation", custom_id, str(idx))
+            citation_id = make_id(f"{id_prefix}_citation", custom_id, str(idx))
 
             if session.get(CommentCitation, citation_id):
                 skipped += 1
@@ -98,7 +101,7 @@ def load_gemini_citations(
             inserted += 1
 
         for idx, raw in enumerate(record.get("unmatched_bibliography", [])):
-            citation_id = make_id("gemini_unmatched", custom_id, str(idx))
+            citation_id = make_id(f"{id_prefix}_unmatched", custom_id, str(idx))
 
             if session.get(CommentCitation, citation_id):
                 skipped += 1
@@ -126,6 +129,6 @@ def load_gemini_citations(
 
     session.commit()
     print(
-        f"[gemini_citations] inserted={inserted}  skipped={skipped}  "
+        f"[{id_prefix}_citations] inserted={inserted}  skipped={skipped}  "
         f"comments_not_found={comments_not_found}"
     )

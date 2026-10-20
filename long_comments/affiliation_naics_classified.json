@@ -1,0 +1,1439 @@
+[
+  {
+    "name": "Environmental Analyst National Congress of American Indians",
+    "resolved_name": "National Congress of American Indians",
+    "description": "The National Congress of American Indians is a national organization whose members are American Indian and Alaska Native tribal governments. It advocates on federal policy affecting tribal sovereignty, economic development, and natural resources. It also convenes tribal leaders and supports policy research.",
+    "description_source": "web_generated",
+    "naics_code": "813319",
+    "naics_title": "Other Social Advocacy Organizations",
+    "confidence": 72,
+    "justification": "Its primary activity is policy advocacy on behalf of tribal nations, which fits other social advocacy organizations.",
+    "alternates": [
+      {
+        "naics_code": "813940",
+        "naics_title": "Political Organizations",
+        "confidence": 50,
+        "justification": "Its lobbying of Congress and agencies overlaps with political organizations, though it is not a party or campaign body."
+      },
+      {
+        "naics_code": "813990",
+        "naics_title": "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",
+        "confidence": 35,
+        "justification": "Could be treated as a catch-all membership organization since its members are governments rather than businesses or professionals."
+      },
+      {
+        "naics_code": "813410",
+        "naics_title": "Civic and Social Organizations",
+        "confidence": 25,
+        "justification": "Its convening role resembles civic organizations, but advocacy dominates."
+      }
+    ],
+    "category": "nonprofit",
+    "category_confidence": 85,
+    "category_justification": "NCAI is a membership body representing tribal governments' collective interests; it could also be read as a nonprofit, hence below 95."
+  },
+  {
+    "name": "nonprofit 501 (c)(3) educaƟonal and research insƟtute",
+    "resolved_name": "Unnamed 501(c)(3) educational and research institute",
+    "description": "nonprofit 501 (c)(3) educational and research institute",
+    "description_source": "provided",
+    "naics_code": "541720",
+    "naics_title": "Research and Development in the Social Sciences and Humanities",
+    "confidence": 70,
+    "justification": "The affiliation describes an educational and research institute without naming its field; policy-oriented research institutes most often fall under social science R&D.",
+    "alternates": [
+      {
+        "naics_code": "611710",
+        "naics_title": "Educational Support Services",
+        "confidence": 45,
+        "justification": "An 'educational' institute could primarily provide educational support services."
+      },
+      {
+        "naics_code": "813319",
+        "naics_title": "Other Social Advocacy Organizations",
+        "confidence": 40,
+        "justification": "Many 501(c)(3) research institutes function mainly as advocacy organizations."
+      },
+      {
+        "naics_code": "541715",
+        "naics_title": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",
+        "confidence": 20,
+        "justification": "If the research were physical or engineering science, this code would apply; nothing in the text indicates that."
+      }
+    ],
+    "category": "nonprofit",
+    "category_confidence": 90,
+    "category_justification": "The affiliation text itself states 501(c)(3) nonprofit status and a research/educational mission; no organization name is given in this field."
+  },
+  {
+    "name": "Vice President of Government Relations",
+    "resolved_name": "Unnamed organization (government relations role)",
+    "description": "No organization named; classified from the affiliation text alone.",
+    "description_source": "web_generated",
+    "naics_code": "541820",
+    "naics_title": "Public Relations Agencies",
+    "confidence": 10,
+    "justification": "The affiliation is a job title only, naming no organization or industry; government relations (lobbying) work is coded here only as a placeholder.",
+    "alternates": [
+      {
+        "naics_code": "813910",
+        "naics_title": "Business Associations",
+        "confidence": 8,
+        "justification": "Government relations staff are common at trade associations, but nothing names one."
+      },
+      {
+        "naics_code": "513210",
+        "naics_title": "Software Publishers",
+        "confidence": 5,
+        "justification": "No basis to choose a specific industry; listed as one of many possibilities."
+      },
+      {
+        "naics_code": "541110",
+        "naics_title": "Offices of Lawyers",
+        "confidence": 5,
+        "justification": "Government relations roles also sit in law firms; no basis to choose."
+      }
+    ],
+    "category": "unknown/unverified",
+    "category_confidence": 15,
+    "category_justification": "The affiliation is a job title implying an employer, but no organization is named so its type cannot be determined."
+  },
+  {
+    "name": "Senior Director of Government Relations",
+    "resolved_name": "Unnamed organization (government relations role)",
+    "description": "No organization named; classified from the affiliation text alone.",
+    "description_source": "web_generated",
+    "naics_code": "541820",
+    "naics_title": "Public Relations Agencies",
+    "confidence": 10,
+    "justification": "The affiliation is a job title only, naming no organization or industry; government relations (lobbying) work is coded here only as a placeholder.",
+    "alternates": [
+      {
+        "naics_code": "813910",
+        "naics_title": "Business Associations",
+        "confidence": 8,
+        "justification": "Government relations staff are common at trade associations, but nothing names one."
+      },
+      {
+        "naics_code": "513210",
+        "naics_title": "Software Publishers",
+        "confidence": 5,
+        "justification": "No basis to choose a specific industry; listed as one of many possibilities."
+      },
+      {
+        "naics_code": "541110",
+        "naics_title": "Offices of Lawyers",
+        "confidence": 5,
+        "justification": "Government relations roles also sit in law firms; no basis to choose."
+      }
+    ],
+    "category": "unknown/unverified",
+    "category_confidence": 15,
+    "category_justification": "The affiliation is a job title implying an employer, but no organization is named so its type cannot be determined."
+  },
+  {
+    "name": "Government Relations Associate",
+    "resolved_name": "Unnamed organization (government relations role)",
+    "description": "No organization named; classified from the affiliation text alone.",
+    "description_source": "web_generated",
+    "naics_code": "541820",
+    "naics_title": "Public Relations Agencies",
+    "confidence": 10,
+    "justification": "The affiliation is a job title only, naming no organization or industry; government relations (lobbying) work is coded here only as a placeholder.",
+    "alternates": [
+      {
+        "naics_code": "813910",
+        "naics_title": "Business Associations",
+        "confidence": 8,
+        "justification": "Government relations staff are common at trade associations, but nothing names one."
+      },
+      {
+        "naics_code": "513210",
+        "naics_title": "Software Publishers",
+        "confidence": 5,
+        "justification": "No basis to choose a specific industry; listed as one of many possibilities."
+      },
+      {
+        "naics_code": "541110",
+        "naics_title": "Offices of Lawyers",
+        "confidence": 5,
+        "justification": "Government relations roles also sit in law firms; no basis to choose."
+      }
+    ],
+    "category": "unknown/unverified",
+    "category_confidence": 15,
+    "category_justification": "The affiliation is a job title implying an employer, but no organization is named so its type cannot be determined."
+  },
+  {
+    "name": "Internet Infrastructure Coalition",
+    "resolved_name": "Internet Infrastructure Coalition",
+    "description": "The Internet Infrastructure Coalition (i2Coalition) is a trade association of companies that build and operate internet infrastructure, such as hosting, cloud, domain, and data center providers. It advocates on public policy affecting those businesses. It also develops industry best practices.",
+    "description_source": "web_generated",
+    "naics_code": "813910",
+    "naics_title": "Business Associations",
+    "confidence": 96,
+    "justification": "As a trade association representing internet infrastructure companies, its primary activity is business association advocacy.",
+    "alternates": [],
+    "category": "trade/coalition organization",
+    "category_confidence": 97,
+    "category_justification": "It is a membership-based trade association representing its member companies' interests."
+  },
+  {
+    "name": "HWG LLP",
+    "resolved_name": "HWG LLP",
+    "description": "HWG LLP is a Washington, D.C. law firm. It specializes in telecommunications, technology, privacy, and regulatory law. It represents clients before federal agencies and in policy proceedings.",
+    "description_source": "web_generated",
+    "naics_code": "541110",
+    "naics_title": "Offices of Lawyers",
+    "confidence": 98,
+    "justification": "HWG is a law firm, whose primary activity is providing legal services.",
+    "alternates": [],
+    "category": "business/industry",
+    "category_confidence": 88,
+    "category_justification": "A for-profit law firm; in this record it appears as counsel on a submission alongside i2Coalition, i.e. likely an advisory capacity on behalf of a client rather than its own stake."
+  },
+  {
+    "name": "Jonas Robitscher Professor of Law in Artificial Intelligence, Machine Learning, and Data Science, Emory University",
+    "resolved_name": "Emory University",
+    "description": "Emory University is a private research university in Atlanta, Georgia. It offers undergraduate, graduate, and professional degrees, including law. It conducts research across many fields.",
+    "description_source": "web_generated",
+    "naics_code": "611310",
+    "naics_title": "Colleges, Universities, and Professional Schools",
+    "confidence": 99,
+    "justification": "The affiliation names a professorship at Emory University, a degree-granting university.",
+    "alternates": [],
+    "category": "university",
+    "category_confidence": 99,
+    "category_justification": "Emory University is a degree-granting private university."
+  },
+  {
+    "name": "Office of Science and Technology Policy",
+    "resolved_name": "Office of Science and Technology Policy",
+    "description": "The Office of Science and Technology Policy is part of the Executive Office of the President of the United States. It advises the President on science and technology matters. It coordinates federal science and technology policy across agencies.",
+    "description_source": "web_generated",
+    "naics_code": "921110",
+    "naics_title": "Executive Offices",
+    "confidence": 85,
+    "justification": "OSTP is a unit of the Executive Office of the President, which falls under executive offices.",
+    "alternates": [
+      {
+        "naics_code": "921190",
+        "naics_title": "Other General Government Support",
+        "confidence": 60,
+        "justification": "As a policy-coordinating office, it could be treated as other general government support."
+      },
+      {
+        "naics_code": "926110",
+        "naics_title": "Administration of General Economic Programs",
+        "confidence": 25,
+        "justification": "Its technology and innovation policy role touches general economic program administration."
+      },
+      {
+        "naics_code": "927110",
+        "naics_title": "Space Research and Technology",
+        "confidence": 10,
+        "justification": "Space research and technology is the nearest science-specific public administration code, but OSTP does not run programs."
+      }
+    ],
+    "category": "government",
+    "category_confidence": 99,
+    "category_justification": "OSTP is a federal government office within the Executive Office of the President."
+  },
+  {
+    "name": "Executive Director",
+    "resolved_name": "Unnamed organization (executive director role)",
+    "description": "No organization named; classified from the affiliation text alone.",
+    "description_source": "web_generated",
+    "naics_code": "813910",
+    "naics_title": "Business Associations",
+    "confidence": 5,
+    "justification": "The affiliation is a bare job title; 'Executive Director' is common at associations and nonprofits, so this code is a weak placeholder.",
+    "alternates": [
+      {
+        "naics_code": "813319",
+        "naics_title": "Other Social Advocacy Organizations",
+        "confidence": 5,
+        "justification": "Executive directors also commonly lead advocacy nonprofits."
+      },
+      {
+        "naics_code": "541720",
+        "naics_title": "Research and Development in the Social Sciences and Humanities",
+        "confidence": 4,
+        "justification": "Could head a research institute; no basis to choose."
+      },
+      {
+        "naics_code": "813920",
+        "naics_title": "Professional Organizations",
+        "confidence": 3,
+        "justification": "Could head a professional association; no basis to choose."
+      }
+    ],
+    "category": "unknown/unverified",
+    "category_confidence": 10,
+    "category_justification": "A job title implying an organization, but none is named."
+  },
+  {
+    "name": "Director of the National Institute of Standards and Technology (NIST) and Under Secretary of Commerce for Standards and Technology",
+    "resolved_name": "National Institute of Standards and Technology (U.S. Department of Commerce)",
+    "description": "The National Institute of Standards and Technology is a non-regulatory agency of the U.S. Department of Commerce. It develops measurement standards, technical guidance, and frameworks, including for AI risk management. It also operates laboratories and manufacturing programs.",
+    "description_source": "web_generated",
+    "naics_code": "926150",
+    "naics_title": "Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors",
+    "confidence": 62,
+    "justification": "NIST is a federal agency whose core mission is measurement standards (weights and measures), which public administration places under regulation of miscellaneous commercial sectors, though NIST itself is non-regulatory.",
+    "alternates": [
+      {
+        "naics_code": "926110",
+        "naics_title": "Administration of General Economic Programs",
+        "confidence": 55,
+        "justification": "NIST's industry and innovation programs fit general economic program administration."
+      },
+      {
+        "naics_code": "541715",
+        "naics_title": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",
+        "confidence": 35,
+        "justification": "Much of NIST's work is laboratory R&D, but government agencies belong in sector 92."
+      },
+      {
+        "naics_code": "921190",
+        "naics_title": "Other General Government Support",
+        "confidence": 25,
+        "justification": "Could be treated as general government support."
+      }
+    ],
+    "category": "government",
+    "category_confidence": 99,
+    "category_justification": "NIST is a federal agency within the U.S. Department of Commerce."
+  },
+  {
+    "name": "Vice President, Technology Policy, The Center for American Progress",
+    "resolved_name": "Center for American Progress",
+    "description": "The Center for American Progress is a Washington, D.C. public policy research and advocacy organization. It produces policy analysis and proposals on economic, social, and technology issues. It operates as a 501(c)(3) nonprofit with an affiliated advocacy arm.",
+    "description_source": "web_generated",
+    "naics_code": "541720",
+    "naics_title": "Research and Development in the Social Sciences and Humanities",
+    "confidence": 78,
+    "justification": "CAP's primary activity is producing public policy research, which maps to social science research; it also does substantial advocacy.",
+    "alternates": [
+      {
+        "naics_code": "813319",
+        "naics_title": "Other Social Advocacy Organizations",
+        "confidence": 70,
+        "justification": "Its advocacy work is substantial enough that social advocacy organization is a close alternative."
+      },
+      {
+        "naics_code": "813940",
+        "naics_title": "Political Organizations",
+        "confidence": 30,
+        "justification": "Its affiliated action fund engages in political activity, but the think tank itself is not a political organization."
+      },
+      {
+        "naics_code": "611710",
+        "naics_title": "Educational Support Services",
+        "confidence": 10,
+        "justification": "It publishes educational materials, but this is not its primary activity."
+      }
+    ],
+    "category": "nonprofit",
+    "category_confidence": 93,
+    "category_justification": "CAP is a 501(c)(3) policy research nonprofit, not a membership body or university."
+  },
+  {
+    "name": "Director, Technology Policy, The Center for American Progress",
+    "resolved_name": "Center for American Progress",
+    "description": "The Center for American Progress is a Washington, D.C. public policy research and advocacy organization. It produces policy analysis and proposals on economic, social, and technology issues. It operates as a 501(c)(3) nonprofit with an affiliated advocacy arm.",
+    "description_source": "web_generated",
+    "naics_code": "541720",
+    "naics_title": "Research and Development in the Social Sciences and Humanities",
+    "confidence": 78,
+    "justification": "CAP's primary activity is producing public policy research, which maps to social science research; it also does substantial advocacy.",
+    "alternates": [
+      {
+        "naics_code": "813319",
+        "naics_title": "Other Social Advocacy Organizations",
+        "confidence": 70,
+        "justification": "Its advocacy work is substantial enough that social advocacy organization is a close alternative."
+      },
+      {
+        "naics_code": "813940",
+        "naics_title": "Political Organizations",
+        "confidence": 30,
+        "justification": "Its affiliated action fund engages in political activity, but the think tank itself is not a political organization."
+      },
+      {
+        "naics_code": "611710",
+        "naics_title": "Educational Support Services",
+        "confidence": 10,
+        "justification": "It publishes educational materials, but this is not its primary activity."
+      }
+    ],
+    "category": "nonprofit",
+    "category_confidence": 93,
+    "category_justification": "CAP is a 501(c)(3) policy research nonprofit, not a membership body or university."
+  },
+  {
+    "name": "Vice President, Public Policy\nMeta Platforms, Inc.",
+    "resolved_name": "Meta Platforms, Inc.",
+    "description": "Meta Platforms is a technology company headquartered in Menlo Park, California. It operates social media and messaging services including Facebook, Instagram, and WhatsApp. It earns most of its revenue from digital advertising and also develops AI and virtual reality products.",
+    "description_source": "web_generated",
+    "naics_code": "516210",
+    "naics_title": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers",
+    "confidence": 90,
+    "justification": "Meta's primary activity is operating social networks and online content platforms, which this code explicitly covers.",
+    "alternates": [
+      {
+        "naics_code": "519290",
+        "naics_title": "Web Search Portals and All Other Information Services",
+        "confidence": 45,
+        "justification": "Its online platforms resemble web portals and other information services."
+      },
+      {
+        "naics_code": "513210",
+        "naics_title": "Software Publishers",
+        "confidence": 30,
+        "justification": "It develops and distributes software and AI models, but those are secondary to its platforms."
+      },
+      {
+        "naics_code": "541890",
+        "naics_title": "Other Services Related to Advertising",
+        "confidence": 15,
+        "justification": "Most revenue is advertising, but Meta sells ads on its own media, which NAICS assigns to the media code."
+      }
+    ],
+    "category": "business/industry",
+    "category_confidence": 99,
+    "category_justification": "Meta is a publicly traded for-profit company."
+  },
+  {
+    "name": "The Center for American Progress",
+    "resolved_name": "Center for American Progress",
+    "description": "The Center for American Progress is a Washington, D.C. public policy research and advocacy organization. It produces policy analysis and proposals on economic, social, and technology issues. It operates as a 501(c)(3) nonprofit with an affiliated advocacy arm.",
+    "description_source": "web_generated",
+    "naics_code": "541720",
+    "naics_title": "Research and Development in the Social Sciences and Humanities",
+    "confidence": 78,
+    "justification": "CAP's primary activity is producing public policy research, which maps to social science research; it also does substantial advocacy.",
+    "alternates": [
+      {
+        "naics_code": "813319",
+        "naics_title": "Other Social Advocacy Organizations",
+        "confidence": 70,
+        "justification": "Its advocacy work is substantial enough that social advocacy organization is a close alternative."
+      },
+      {
+        "naics_code": "813940",
+        "naics_title": "Political Organizations",
+        "confidence": 30,
+        "justification": "Its affiliated action fund engages in political activity, but the think tank itself is not a political organization."
+      },
+      {
+        "naics_code": "611710",
+        "naics_title": "Educational Support Services",
+        "confidence": 10,
+        "justification": "It publishes educational materials, but this is not its primary activity."
+      }
+    ],
+    "category": "nonprofit",
+    "category_confidence": 93,
+    "category_justification": "CAP is a 501(c)(3) policy research nonprofit, not a membership body or university."
+  },
+  {
+    "name": "PhD, MBA, Masters of Pacific Internaonal Affairs Profundies LLC",
+    "resolved_name": "Profundities LLC",
+    "description": "Profundities LLC appears to be a small company associated with Kenneth B. Tingey of Logan, Utah. Tingey writes on governance, policy, and systems thinking. Searches did not find a business description for the company itself.",
+    "description_source": "web_generated",
+    "naics_code": "541611",
+    "naics_title": "Administrative Management and General Management Consulting Services",
+    "confidence": 35,
+    "justification": "The LLC appears to be a personal consulting or writing vehicle for its principal; management consulting is the most plausible code but is poorly supported.",
+    "alternates": [
+      {
+        "naics_code": "541720",
+        "naics_title": "Research and Development in the Social Sciences and Humanities",
+        "confidence": 30,
+        "justification": "The principal's published work is policy and social-theory writing, suggesting social science research."
+      },
+      {
+        "naics_code": "541618",
+        "naics_title": "Other Management Consulting Services",
+        "confidence": 25,
+        "justification": "Could be other management consulting."
+      },
+      {
+        "naics_code": "711510",
+        "naics_title": "Independent Artists, Writers, and Performers",
+        "confidence": 15,
+        "justification": "Could be an independent writer's business."
+      }
+    ],
+    "category": "business/industry",
+    "category_confidence": 70,
+    "category_justification": "The 'LLC' suffix indicates a for-profit entity, but its activities could not be verified."
+  },
+  {
+    "name": "founding director, University of Pittsburgh Institute for Cyber Law, Policy, and Security (Pitt Cyber)",
+    "resolved_name": "University of Pittsburgh's Institute for Cyber Law, Policy, and Security (Pitt Cyber)",
+    "description": "Pitt Cyber is an institute of the University of Pittsburgh. It conducts research, convenes stakeholders, and develops policy recommendations on cybersecurity, technology, and AI. It is part of the university rather than an independent organization.",
+    "description_source": "web_generated",
+    "naics_code": "611310",
+    "naics_title": "Colleges, Universities, and Professional Schools",
+    "confidence": 82,
+    "justification": "Pitt Cyber is a sub-unit of the University of Pittsburgh, so it takes the university's code, although its own activity is policy research.",
+    "alternates": [
+      {
+        "naics_code": "541720",
+        "naics_title": "Research and Development in the Social Sciences and Humanities",
+        "confidence": 70,
+        "justification": "Its own primary activity is policy research, which would be social science R&D if coded on its own."
+      },
+      {
+        "naics_code": "611710",
+        "naics_title": "Educational Support Services",
+        "confidence": 25,
+        "justification": "Its convening and educational programs resemble educational support services."
+      },
+      {
+        "naics_code": "813319",
+        "naics_title": "Other Social Advocacy Organizations",
+        "confidence": 15,
+        "justification": "It does some advocacy, but research dominates."
+      }
+    ],
+    "category": "university",
+    "category_confidence": 95,
+    "category_justification": "Pitt Cyber is an institute within the University of Pittsburgh, a degree-granting university."
+  },
+  {
+    "name": "executive director of the University of Pittsburgh Institute for Cyber Law, Policy, and Security (Pitt Cyber)",
+    "resolved_name": "University of Pittsburgh's Institute for Cyber Law, Policy, and Security (Pitt Cyber)",
+    "description": "Pitt Cyber is an institute of the University of Pittsburgh. It conducts research, convenes stakeholders, and develops policy recommendations on cybersecurity, technology, and AI. It is part of the university rather than an independent organization.",
+    "description_source": "web_generated",
+    "naics_code": "611310",
+    "naics_title": "Colleges, Universities, and Professional Schools",
+    "confidence": 82,
+    "justification": "Pitt Cyber is a sub-unit of the University of Pittsburgh, so it takes the university's code, although its own activity is policy research.",
+    "alternates": [
+      {
+        "naics_code": "541720",
+        "naics_title": "Research and Development in the Social Sciences and Humanities",
+        "confidence": 70,
+        "justification": "Its own primary activity is policy research, which would be social science R&D if coded on its own."
+      },
+      {
+        "naics_code": "611710",
+        "naics_title": "Educational Support Services",
+        "confidence": 25,
+        "justification": "Its convening and educational programs resemble educational support services."
+      },
+      {
+        "naics_code": "813319",
+        "naics_title": "Other Social Advocacy Organizations",
+        "confidence": 15,
+        "justification": "It does some advocacy, but research dominates."
+      }
+    ],
+    "category": "university",
+    "category_confidence": 95,
+    "category_justification": "Pitt Cyber is an institute within the University of Pittsburgh, a degree-granting university."
+  },
+  {
+    "name": "Research Fellow, Mercatus Center at George Mason University",
+    "resolved_name": "Mercatus Center at George Mason University",
+    "description": "The Mercatus Center is a market-oriented research center based at George Mason University. It produces economic and regulatory policy research. It is privately funded and operates with substantial independence from the university's academic departments.",
+    "description_source": "web_generated",
+    "naics_code": "541720",
+    "naics_title": "Research and Development in the Social Sciences and Humanities",
+    "confidence": 88,
+    "justification": "Its primary activity is economic and regulatory policy research, which is social science R&D.",
+    "alternates": [
+      {
+        "naics_code": "611310",
+        "naics_title": "Colleges, Universities, and Professional Schools",
+        "confidence": 55,
+        "justification": "As a university-based center it could take George Mason University's code."
+      },
+      {
+        "naics_code": "813319",
+        "naics_title": "Other Social Advocacy Organizations",
+        "confidence": 35,
+        "justification": "Its research supports policy positions, overlapping with advocacy."
+      },
+      {
+        "naics_code": "611710",
+        "naics_title": "Educational Support Services",
+        "confidence": 10,
+        "justification": "It runs educational programs for students, a secondary activity."
+      }
+    ],
+    "category": "university",
+    "category_confidence": 65,
+    "category_justification": "It is housed at George Mason University, but it is privately funded and largely independent, so nonprofit is a close alternative."
+  },
+  {
+    "name": "Senior Research Fellow, Mercatus Center at George Mason University",
+    "resolved_name": "George Mason University",
+    "description": "The Mercatus Center is a market-oriented research center based at George Mason University. It produces economic and regulatory policy research. It is privately funded and operates with substantial independence from the university's academic departments.",
+    "description_source": "web_generated",
+    "naics_code": "541720",
+    "naics_title": "Research and Development in the Social Sciences and Humanities",
+    "confidence": 88,
+    "justification": "Its primary activity is economic and regulatory policy research, which is social science R&D.",
+    "alternates": [
+      {
+        "naics_code": "611310",
+        "naics_title": "Colleges, Universities, and Professional Schools",
+        "confidence": 55,
+        "justification": "As a university-based center it could take George Mason University's code."
+      },
+      {
+        "naics_code": "813319",
+        "naics_title": "Other Social Advocacy Organizations",
+        "confidence": 35,
+        "justification": "Its research supports policy positions, overlapping with advocacy."
+      },
+      {
+        "naics_code": "611710",
+        "naics_title": "Educational Support Services",
+        "confidence": 10,
+        "justification": "It runs educational programs for students, a secondary activity."
+      }
+    ],
+    "category": "university",
+    "category_confidence": 65,
+    "category_justification": "It is housed at George Mason University, but it is privately funded and largely independent, so nonprofit is a close alternative."
+  },
+  {
+    "name": "Policy Analyst",
+    "resolved_name": "Unnamed organization (policy analyst role)",
+    "description": "No organization named; classified from the affiliation text alone.",
+    "description_source": "web_generated",
+    "naics_code": "541720",
+    "naics_title": "Research and Development in the Social Sciences and Humanities",
+    "confidence": 10,
+    "justification": "The affiliation is a job title only; policy analysts most often work in research organizations, so this is a weak placeholder.",
+    "alternates": [
+      {
+        "naics_code": "813319",
+        "naics_title": "Other Social Advocacy Organizations",
+        "confidence": 9,
+        "justification": "Policy analysts also commonly work at advocacy organizations."
+      },
+      {
+        "naics_code": "813910",
+        "naics_title": "Business Associations",
+        "confidence": 5,
+        "justification": "Could be a trade association."
+      },
+      {
+        "naics_code": "921190",
+        "naics_title": "Other General Government Support",
+        "confidence": 4,
+        "justification": "Could be a government office."
+      }
+    ],
+    "category": "unknown/unverified",
+    "category_confidence": 10,
+    "category_justification": "A job title implying an organization, but none is named."
+  },
+  {
+    "name": "Director of Technology Policy",
+    "resolved_name": "Unnamed organization (director of technology policy role)",
+    "description": "No organization named; classified from the affiliation text alone.",
+    "description_source": "web_generated",
+    "naics_code": "541720",
+    "naics_title": "Research and Development in the Social Sciences and Humanities",
+    "confidence": 10,
+    "justification": "The affiliation is a job title only; technology policy directors most often work at research or advocacy organizations.",
+    "alternates": [
+      {
+        "naics_code": "813319",
+        "naics_title": "Other Social Advocacy Organizations",
+        "confidence": 9,
+        "justification": "Technology policy roles are common at advocacy nonprofits."
+      },
+      {
+        "naics_code": "516210",
+        "naics_title": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers",
+        "confidence": 5,
+        "justification": "Large technology companies also employ technology policy directors."
+      },
+      {
+        "naics_code": "813910",
+        "naics_title": "Business Associations",
+        "confidence": 5,
+        "justification": "Could be a trade association."
+      }
+    ],
+    "category": "unknown/unverified",
+    "category_confidence": 10,
+    "category_justification": "A job title implying an organization, but none is named."
+  },
+  {
+    "name": "Co-Founder, The Institute",
+    "resolved_name": "The Institute for Workplace Equality (inferred from 'The Institute')",
+    "description": "The Institute for Workplace Equality is a nonprofit employer association focused on equal employment opportunity and affirmative action compliance. It provides education and convenes employers, practitioners, and former officials. Research links David Fortney to it as a co-founder.",
+    "description_source": "web_generated",
+    "naics_code": "813910",
+    "naics_title": "Business Associations",
+    "confidence": 65,
+    "justification": "The organization exists to represent and educate employers on EEO compliance, fitting business associations; the identification itself rests on research about the named co-founder.",
+    "alternates": [
+      {
+        "naics_code": "611430",
+        "naics_title": "Professional and Management Development Training",
+        "confidence": 45,
+        "justification": "Much of its activity is compliance education for employers."
+      },
+      {
+        "naics_code": "813319",
+        "naics_title": "Other Social Advocacy Organizations",
+        "confidence": 30,
+        "justification": "It weighs in on employment policy, overlapping with advocacy."
+      },
+      {
+        "naics_code": "813990",
+        "naics_title": "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",
+        "confidence": 15,
+        "justification": "Unknown if 'The Institute' refers to this organization at all."
+      }
+    ],
+    "category": "trade/coalition organization",
+    "category_confidence": 65,
+    "category_justification": "'The Institute' is generic on its own; research links the co-founder to an employer membership association, so the category is plausible but not certain."
+  },
+  {
+    "name": "Vice President, Public Policy Meta Platforms, Inc.",
+    "resolved_name": "Meta Platforms, Inc.",
+    "description": "Meta Platforms is a technology company headquartered in Menlo Park, California. It operates social media and messaging services including Facebook, Instagram, and WhatsApp. It earns most of its revenue from digital advertising and also develops AI and virtual reality products.",
+    "description_source": "web_generated",
+    "naics_code": "516210",
+    "naics_title": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers",
+    "confidence": 90,
+    "justification": "Meta's primary activity is operating social networks and online content platforms, which this code explicitly covers.",
+    "alternates": [
+      {
+        "naics_code": "519290",
+        "naics_title": "Web Search Portals and All Other Information Services",
+        "confidence": 45,
+        "justification": "Its online platforms resemble web portals and other information services."
+      },
+      {
+        "naics_code": "513210",
+        "naics_title": "Software Publishers",
+        "confidence": 30,
+        "justification": "It develops and distributes software and AI models, but those are secondary to its platforms."
+      },
+      {
+        "naics_code": "541890",
+        "naics_title": "Other Services Related to Advertising",
+        "confidence": 15,
+        "justification": "Most revenue is advertising, but Meta sells ads on its own media, which NAICS assigns to the media code."
+      }
+    ],
+    "category": "business/industry",
+    "category_confidence": 99,
+    "category_justification": "Meta is a publicly traded for-profit company."
+  },
+  {
+    "name": "Equal Justice Works Fellow",
+    "resolved_name": "Equal Justice Works",
+    "description": "Equal Justice Works is a nonprofit focused on public interest law. It runs fellowship programs that place lawyers at legal aid and advocacy organizations. It also supports law students and loan-repayment advocacy.",
+    "description_source": "web_generated",
+    "naics_code": "813319",
+    "naics_title": "Other Social Advocacy Organizations",
+    "confidence": 60,
+    "justification": "Equal Justice Works' primary activity is advancing public interest law through fellowships, closest to social advocacy organizations; the fellow is likely hosted at another organization.",
+    "alternates": [
+      {
+        "naics_code": "813211",
+        "naics_title": "Grantmaking Foundations",
+        "confidence": 50,
+        "justification": "Its fellowships function like grant funding to host organizations."
+      },
+      {
+        "naics_code": "611710",
+        "naics_title": "Educational Support Services",
+        "confidence": 35,
+        "justification": "It provides career and educational support for law students and lawyers."
+      },
+      {
+        "naics_code": "813920",
+        "naics_title": "Professional Organizations",
+        "confidence": 20,
+        "justification": "It serves the legal profession, but it is not a professional membership body."
+      }
+    ],
+    "category": "nonprofit",
+    "category_confidence": 85,
+    "category_justification": "Equal Justice Works is a mission-driven nonprofit; note that a fellow typically works at a host organization (here co-signers are EPIC staff)."
+  },
+  {
+    "name": "EPIC Senior Counsel & Global Privacy Counsel",
+    "resolved_name": "Electronic Privacy Information Center (EPIC)",
+    "description": "The Electronic Privacy Information Center is a public interest research center in Washington, D.C. It focuses on privacy, civil liberties, and AI governance. It litigates, files comments with agencies, and publishes policy research.",
+    "description_source": "web_generated",
+    "naics_code": "813319",
+    "naics_title": "Other Social Advocacy Organizations",
+    "confidence": 88,
+    "justification": "EPIC's primary activity is privacy and civil liberties advocacy, including litigation and agency comments.",
+    "alternates": [
+      {
+        "naics_code": "541720",
+        "naics_title": "Research and Development in the Social Sciences and Humanities",
+        "confidence": 60,
+        "justification": "It describes itself as a research center and publishes policy research."
+      },
+      {
+        "naics_code": "541110",
+        "naics_title": "Offices of Lawyers",
+        "confidence": 35,
+        "justification": "It litigates, but public interest litigation by an advocacy group is not a law office's primary activity."
+      },
+      {
+        "naics_code": "813940",
+        "naics_title": "Political Organizations",
+        "confidence": 10,
+        "justification": "It does not engage in electoral politics."
+      }
+    ],
+    "category": "nonprofit",
+    "category_confidence": 95,
+    "category_justification": "EPIC is a mission-driven public interest nonprofit, not a membership body."
+  },
+  {
+    "name": "EPIC Law Fellow",
+    "resolved_name": "Electronic Privacy Information Center (EPIC)",
+    "description": "The Electronic Privacy Information Center is a public interest research center in Washington, D.C. It focuses on privacy, civil liberties, and AI governance. It litigates, files comments with agencies, and publishes policy research.",
+    "description_source": "web_generated",
+    "naics_code": "813319",
+    "naics_title": "Other Social Advocacy Organizations",
+    "confidence": 88,
+    "justification": "EPIC's primary activity is privacy and civil liberties advocacy, including litigation and agency comments.",
+    "alternates": [
+      {
+        "naics_code": "541720",
+        "naics_title": "Research and Development in the Social Sciences and Humanities",
+        "confidence": 60,
+        "justification": "It describes itself as a research center and publishes policy research."
+      },
+      {
+        "naics_code": "541110",
+        "naics_title": "Offices of Lawyers",
+        "confidence": 35,
+        "justification": "It litigates, but public interest litigation by an advocacy group is not a law office's primary activity."
+      },
+      {
+        "naics_code": "813940",
+        "naics_title": "Political Organizations",
+        "confidence": 10,
+        "justification": "It does not engage in electoral politics."
+      }
+    ],
+    "category": "nonprofit",
+    "category_confidence": 95,
+    "category_justification": "EPIC is a mission-driven public interest nonprofit, not a membership body."
+  },
+  {
+    "name": "CDT's Senior Advisor on AI Governance",
+    "resolved_name": "Center for Democracy & Technology (CDT)",
+    "description": "The Center for Democracy & Technology is a nonprofit organization based in Washington, D.C. It advocates for civil rights and civil liberties in technology policy, including privacy, free expression, and AI. It publishes research and comments on regulatory proceedings.",
+    "description_source": "web_generated",
+    "naics_code": "813319",
+    "naics_title": "Other Social Advocacy Organizations",
+    "confidence": 88,
+    "justification": "CDT's primary activity is technology policy advocacy on civil rights and civil liberties.",
+    "alternates": [
+      {
+        "naics_code": "541720",
+        "naics_title": "Research and Development in the Social Sciences and Humanities",
+        "confidence": 60,
+        "justification": "It also produces substantial policy research."
+      },
+      {
+        "naics_code": "813940",
+        "naics_title": "Political Organizations",
+        "confidence": 15,
+        "justification": "It is not a political organization in the electoral sense."
+      },
+      {
+        "naics_code": "541110",
+        "naics_title": "Offices of Lawyers",
+        "confidence": 10,
+        "justification": "It has lawyers on staff but does not primarily provide legal services."
+      }
+    ],
+    "category": "nonprofit",
+    "category_confidence": 95,
+    "category_justification": "CDT is a mission-driven 501(c)(3) nonprofit, not a membership body."
+  },
+  {
+    "name": "founder of a tech firm",
+    "resolved_name": "Unnamed technology firm",
+    "description": "No organization named; classified from the affiliation text alone.",
+    "description_source": "web_generated",
+    "naics_code": "513210",
+    "naics_title": "Software Publishers",
+    "confidence": 15,
+    "justification": "The affiliation says only 'a tech firm'; software publishing is one common possibility among many.",
+    "alternates": [
+      {
+        "naics_code": "541512",
+        "naics_title": "Computer Systems Design Services",
+        "confidence": 14,
+        "justification": "Many tech firms provide computer systems design services."
+      },
+      {
+        "naics_code": "541511",
+        "naics_title": "Custom Computer Programming Services",
+        "confidence": 12,
+        "justification": "Could be a custom software development shop."
+      },
+      {
+        "naics_code": "518210",
+        "naics_title": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+        "confidence": 10,
+        "justification": "Could be a cloud or hosting provider."
+      }
+    ],
+    "category": "unknown/unverified",
+    "category_confidence": 60,
+    "category_justification": "Described as a firm, so likely business/industry, but the firm is unnamed and cannot be verified."
+  },
+  {
+    "name": "architect",
+    "resolved_name": "Individual architect",
+    "description": "No organization named; classified from the affiliation text alone.",
+    "description_source": "web_generated",
+    "naics_code": "541310",
+    "naics_title": "Architectural Services",
+    "confidence": 70,
+    "justification": "The affiliation is an occupation with no employer named; an architect's work is coded to architectural services.",
+    "alternates": [
+      {
+        "naics_code": "541490",
+        "naics_title": "Other Specialized Design Services",
+        "confidence": 30,
+        "justification": "Some architects do specialized design work outside buildings."
+      },
+      {
+        "naics_code": "541430",
+        "naics_title": "Graphic Design Services",
+        "confidence": 15,
+        "justification": "Could overlap with graphic or visual design."
+      },
+      {
+        "naics_code": "711510",
+        "naics_title": "Independent Artists, Writers, and Performers",
+        "confidence": 10,
+        "justification": "Some architects also work as independent artists."
+      }
+    ],
+    "category": "individual/unaffiliated",
+    "category_confidence": 80,
+    "category_justification": "No organization is named; the record describes a person by occupation."
+  },
+  {
+    "name": "Broadway projection designer",
+    "resolved_name": "Individual Broadway projection designer",
+    "description": "No organization named; classified from the affiliation text alone.",
+    "description_source": "web_generated",
+    "naics_code": "711510",
+    "naics_title": "Independent Artists, Writers, and Performers",
+    "confidence": 60,
+    "justification": "Theatrical projection designers typically work freelance on productions, fitting independent artists.",
+    "alternates": [
+      {
+        "naics_code": "541490",
+        "naics_title": "Other Specialized Design Services",
+        "confidence": 45,
+        "justification": "Projection design could be treated as other specialized design services."
+      },
+      {
+        "naics_code": "512110",
+        "naics_title": "Motion Picture and Video Production",
+        "confidence": 30,
+        "justification": "Projection content often involves video production."
+      },
+      {
+        "naics_code": "541430",
+        "naics_title": "Graphic Design Services",
+        "confidence": 20,
+        "justification": "Overlaps with graphic design."
+      }
+    ],
+    "category": "individual/unaffiliated",
+    "category_confidence": 85,
+    "category_justification": "No organization is named; the record describes a person by occupation."
+  },
+  {
+    "name": "president and founder of a technology consulting firm",
+    "resolved_name": "Unnamed technology consulting firm",
+    "description": "No organization named; classified from the affiliation text alone.",
+    "description_source": "web_generated",
+    "naics_code": "541512",
+    "naics_title": "Computer Systems Design Services",
+    "confidence": 50,
+    "justification": "A technology consulting firm most often provides computer systems design and IT consulting.",
+    "alternates": [
+      {
+        "naics_code": "541519",
+        "naics_title": "Other Computer Related Services",
+        "confidence": 40,
+        "justification": "Could be other computer related services."
+      },
+      {
+        "naics_code": "541611",
+        "naics_title": "Administrative Management and General Management Consulting Services",
+        "confidence": 30,
+        "justification": "Could be general management consulting with a technology focus."
+      },
+      {
+        "naics_code": "541618",
+        "naics_title": "Other Management Consulting Services",
+        "confidence": 20,
+        "justification": "Could be other management consulting."
+      }
+    ],
+    "category": "unknown/unverified",
+    "category_confidence": 60,
+    "category_justification": "Described as a firm, so likely business/industry, but the firm is unnamed and cannot be verified."
+  },
+  {
+    "name": "co-founder and creative director of a content production studio",
+    "resolved_name": "Unnamed content production studio",
+    "description": "No organization named; classified from the affiliation text alone.",
+    "description_source": "web_generated",
+    "naics_code": "512110",
+    "naics_title": "Motion Picture and Video Production",
+    "confidence": 45,
+    "justification": "A content production studio most likely produces video content.",
+    "alternates": [
+      {
+        "naics_code": "541430",
+        "naics_title": "Graphic Design Services",
+        "confidence": 30,
+        "justification": "Could be a design-led studio."
+      },
+      {
+        "naics_code": "541810",
+        "naics_title": "Advertising Agencies",
+        "confidence": 25,
+        "justification": "Many content studios work as advertising agencies."
+      },
+      {
+        "naics_code": "711510",
+        "naics_title": "Independent Artists, Writers, and Performers",
+        "confidence": 20,
+        "justification": "Could be an independent creative business."
+      }
+    ],
+    "category": "unknown/unverified",
+    "category_confidence": 60,
+    "category_justification": "Described as a studio, so likely business/industry, but the studio is unnamed and cannot be verified."
+  },
+  {
+    "name": "architect and lighting designer",
+    "resolved_name": "Individual architect and lighting designer",
+    "description": "No organization named; classified from the affiliation text alone.",
+    "description_source": "web_generated",
+    "naics_code": "541310",
+    "naics_title": "Architectural Services",
+    "confidence": 60,
+    "justification": "The person combines architecture with lighting design; architectural services fits the primary occupation.",
+    "alternates": [
+      {
+        "naics_code": "541490",
+        "naics_title": "Other Specialized Design Services",
+        "confidence": 50,
+        "justification": "Lighting design falls under other specialized design services."
+      },
+      {
+        "naics_code": "711510",
+        "naics_title": "Independent Artists, Writers, and Performers",
+        "confidence": 15,
+        "justification": "Some lighting designers work as independent artists."
+      },
+      {
+        "naics_code": "541430",
+        "naics_title": "Graphic Design Services",
+        "confidence": 10,
+        "justification": "Overlaps with graphic design."
+      }
+    ],
+    "category": "individual/unaffiliated",
+    "category_confidence": 80,
+    "category_justification": "No organization is named; the record describes a person by occupation."
+  },
+  {
+    "name": "Under Secretary of Commerce for Standards and Technology and National Institute of Standards and Technology (NIST) Director",
+    "resolved_name": "National Institute of Standards and Technology (U.S. Department of Commerce)",
+    "description": "The National Institute of Standards and Technology is a non-regulatory agency of the U.S. Department of Commerce. It develops measurement standards, technical guidance, and frameworks, including for AI risk management. It also operates laboratories and manufacturing programs.",
+    "description_source": "web_generated",
+    "naics_code": "926150",
+    "naics_title": "Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors",
+    "confidence": 62,
+    "justification": "NIST is a federal agency whose core mission is measurement standards (weights and measures), which public administration places under regulation of miscellaneous commercial sectors, though NIST itself is non-regulatory.",
+    "alternates": [
+      {
+        "naics_code": "926110",
+        "naics_title": "Administration of General Economic Programs",
+        "confidence": 55,
+        "justification": "NIST's industry and innovation programs fit general economic program administration."
+      },
+      {
+        "naics_code": "541715",
+        "naics_title": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",
+        "confidence": 35,
+        "justification": "Much of NIST's work is laboratory R&D, but government agencies belong in sector 92."
+      },
+      {
+        "naics_code": "921190",
+        "naics_title": "Other General Government Support",
+        "confidence": 25,
+        "justification": "Could be treated as general government support."
+      }
+    ],
+    "category": "government",
+    "category_confidence": 99,
+    "category_justification": "NIST is a federal agency within the U.S. Department of Commerce."
+  },
+  {
+    "name": "Chair, Antitrust Law Section",
+    "resolved_name": "American Bar Association Section of Antitrust Law",
+    "description": "The Antitrust Law Section is a section of the American Bar Association for lawyers practicing antitrust, competition, and consumer protection law. It publishes reports and comments on policy. Its submissions represent the Section's views, not the ABA as a whole.",
+    "description_source": "web_generated",
+    "naics_code": "813920",
+    "naics_title": "Professional Organizations",
+    "confidence": 95,
+    "justification": "A section of a bar association is part of a professional organization; the submitted comment confirms it is the ABA's Antitrust Law Section.",
+    "alternates": [],
+    "category": "trade/coalition organization",
+    "category_confidence": 95,
+    "category_justification": "A professional association section representing its member lawyers; confirmed from the comment letter itself."
+  },
+  {
+    "name": "Founding Director, Pitt Cyber",
+    "resolved_name": "University of Pittsburgh's Institute for Cyber Law, Policy, and Security (Pitt Cyber)",
+    "description": "Pitt Cyber is an institute of the University of Pittsburgh. It conducts research, convenes stakeholders, and develops policy recommendations on cybersecurity, technology, and AI. It is part of the university rather than an independent organization.",
+    "description_source": "web_generated",
+    "naics_code": "611310",
+    "naics_title": "Colleges, Universities, and Professional Schools",
+    "confidence": 82,
+    "justification": "Pitt Cyber is a sub-unit of the University of Pittsburgh, so it takes the university's code, although its own activity is policy research.",
+    "alternates": [
+      {
+        "naics_code": "541720",
+        "naics_title": "Research and Development in the Social Sciences and Humanities",
+        "confidence": 70,
+        "justification": "Its own primary activity is policy research, which would be social science R&D if coded on its own."
+      },
+      {
+        "naics_code": "611710",
+        "naics_title": "Educational Support Services",
+        "confidence": 25,
+        "justification": "Its convening and educational programs resemble educational support services."
+      },
+      {
+        "naics_code": "813319",
+        "naics_title": "Other Social Advocacy Organizations",
+        "confidence": 15,
+        "justification": "It does some advocacy, but research dominates."
+      }
+    ],
+    "category": "university",
+    "category_confidence": 95,
+    "category_justification": "Pitt Cyber is an institute within the University of Pittsburgh, a degree-granting university."
+  },
+  {
+    "name": "Professor of Law & Health Sciences, School of Law, Faculty of Arts and Social Sciences, University of Surrey",
+    "resolved_name": "University of Surrey",
+    "description": "The University of Surrey is a public research university in Guildford, England. It offers undergraduate and postgraduate degrees across many fields, including law. It conducts research in science, engineering, and social sciences.",
+    "description_source": "web_generated",
+    "naics_code": "611310",
+    "naics_title": "Colleges, Universities, and Professional Schools",
+    "confidence": 99,
+    "justification": "The affiliation names a professorship at the University of Surrey, a degree-granting university.",
+    "alternates": [],
+    "category": "university",
+    "category_confidence": 99,
+    "category_justification": "The University of Surrey is a degree-granting public university (UK)."
+  },
+  {
+    "name": "Founder, The Rise of Privacy Tech",
+    "resolved_name": "The Rise of Privacy Tech (TROPT)",
+    "description": "The Rise of Privacy Tech describes itself as a privacy tech community. It connects privacy tech founders, investors, experts, buyers, and privacy professionals. Its stated mission is to fuel privacy technology and innovation.",
+    "description_source": "web_generated",
+    "naics_code": "813910",
+    "naics_title": "Business Associations",
+    "confidence": 50,
+    "justification": "Its core activity is convening and promoting the privacy tech industry, closest to a business association, though its legal form is unclear.",
+    "alternates": [
+      {
+        "naics_code": "813920",
+        "naics_title": "Professional Organizations",
+        "confidence": 40,
+        "justification": "Its privacy-professional community resembles a professional organization."
+      },
+      {
+        "naics_code": "541611",
+        "naics_title": "Administrative Management and General Management Consulting Services",
+        "confidence": 25,
+        "justification": "It may operate as an advisory or consulting venture."
+      },
+      {
+        "naics_code": "813990",
+        "naics_title": "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",
+        "confidence": 20,
+        "justification": "Could be a catch-all membership organization."
+      }
+    ],
+    "category": "unknown/unverified",
+    "category_confidence": 55,
+    "category_justification": "Its own submission calls it a community but does not state whether it is a company, nonprofit, or association."
+  },
+  {
+    "name": "CEO, Discernible",
+    "resolved_name": "Discernible, Inc.",
+    "description": "Discernible is a communications firm specializing in security and privacy. It advises organizations on communications strategy for security and privacy matters. It is led by CEO Melanie Ensign.",
+    "description_source": "web_generated",
+    "naics_code": "541820",
+    "naics_title": "Public Relations Agencies",
+    "confidence": 80,
+    "justification": "Discernible's primary activity is communications and public relations consulting for security and privacy teams.",
+    "alternates": [
+      {
+        "naics_code": "541611",
+        "naics_title": "Administrative Management and General Management Consulting Services",
+        "confidence": 45,
+        "justification": "Its advisory work could be treated as management consulting."
+      },
+      {
+        "naics_code": "541618",
+        "naics_title": "Other Management Consulting Services",
+        "confidence": 30,
+        "justification": "Could be other management consulting."
+      },
+      {
+        "naics_code": "541519",
+        "naics_title": "Other Computer Related Services",
+        "confidence": 15,
+        "justification": "It serves security teams but does not provide technical services."
+      }
+    ],
+    "category": "business/industry",
+    "category_confidence": 95,
+    "category_justification": "Discernible is a for-profit firm."
+  },
+  {
+    "name": "Former Chief Privacy Officer/SVP, VISA and ADP",
+    "resolved_name": "Former executive of Visa and ADP (no current affiliation stated)",
+    "description": "No organization named; classified from the affiliation text alone.",
+    "description_source": "web_generated",
+    "naics_code": "522320",
+    "naics_title": "Financial Transactions Processing, Reserve, and Clearinghouse Activities",
+    "confidence": 25,
+    "justification": "The affiliation names only former employers; Visa is coded here as a placeholder, but the person is not representing either company.",
+    "alternates": [
+      {
+        "naics_code": "518210",
+        "naics_title": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+        "confidence": 20,
+        "justification": "ADP's payroll processing falls under data processing services."
+      },
+      {
+        "naics_code": "541611",
+        "naics_title": "Administrative Management and General Management Consulting Services",
+        "confidence": 15,
+        "justification": "Former executives often consult independently."
+      },
+      {
+        "naics_code": "541110",
+        "naics_title": "Offices of Lawyers",
+        "confidence": 10,
+        "justification": "Former chief privacy officers are often lawyers."
+      }
+    ],
+    "category": "individual/unaffiliated",
+    "category_confidence": 70,
+    "category_justification": "Only former employers are listed, so the person appears to be commenting in an individual capacity."
+  },
+  {
+    "name": "Chief Privacy Officer, Outschool, Inc.",
+    "resolved_name": "Outschool, Inc.",
+    "description": "Outschool is an online education company. It runs a marketplace of live online classes for children taught by independent teachers. It is headquartered in San Francisco.",
+    "description_source": "web_generated",
+    "naics_code": "611699",
+    "naics_title": "All Other Miscellaneous Schools and Instruction",
+    "confidence": 70,
+    "justification": "Outschool's primary activity is providing online instruction to children through its marketplace, closest to miscellaneous schools and instruction.",
+    "alternates": [
+      {
+        "naics_code": "611710",
+        "naics_title": "Educational Support Services",
+        "confidence": 45,
+        "justification": "Its platform role could be read as educational support services."
+      },
+      {
+        "naics_code": "516210",
+        "naics_title": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers",
+        "confidence": 25,
+        "justification": "Online marketplace platforms are sometimes coded as online content providers."
+      },
+      {
+        "naics_code": "513210",
+        "naics_title": "Software Publishers",
+        "confidence": 15,
+        "justification": "It develops software, but instruction is the product."
+      }
+    ],
+    "category": "business/industry",
+    "category_confidence": 95,
+    "category_justification": "Outschool, Inc. is a for-profit company."
+  },
+  {
+    "name": "Founder, Bluestreak Product Advisors",
+    "resolved_name": "Bluestreak Product Advisors",
+    "description": "Bluestreak Product Advisors is a small advisory firm founded by Mary Berk. It provides product strategy advice, including on privacy. Little additional public information was found.",
+    "description_source": "web_generated",
+    "naics_code": "541611",
+    "naics_title": "Administrative Management and General Management Consulting Services",
+    "confidence": 60,
+    "justification": "As a product advisory firm, its primary activity is management consulting.",
+    "alternates": [
+      {
+        "naics_code": "541618",
+        "naics_title": "Other Management Consulting Services",
+        "confidence": 45,
+        "justification": "Could be other management consulting."
+      },
+      {
+        "naics_code": "541512",
+        "naics_title": "Computer Systems Design Services",
+        "confidence": 25,
+        "justification": "If its advice is technical product design, computer systems design could apply."
+      },
+      {
+        "naics_code": "541720",
+        "naics_title": "Research and Development in the Social Sciences and Humanities",
+        "confidence": 10,
+        "justification": "Unlikely to be primarily research."
+      }
+    ],
+    "category": "business/industry",
+    "category_confidence": 85,
+    "category_justification": "Named as an advisory firm with a founder, indicating a for-profit business, though not fully verified."
+  },
+  {
+    "name": "Senior Director, Senior Data Protection, Use & Ethics Counsel, Autodesk",
+    "resolved_name": "Autodesk, Inc.",
+    "description": "Autodesk is a software company headquartered in San Francisco. It develops design and engineering software such as AutoCAD and Revit. It serves architecture, engineering, construction, manufacturing, and media industries.",
+    "description_source": "web_generated",
+    "naics_code": "513210",
+    "naics_title": "Software Publishers",
+    "confidence": 97,
+    "justification": "Autodesk's primary activity is developing and publishing design software.",
+    "alternates": [],
+    "category": "business/industry",
+    "category_confidence": 99,
+    "category_justification": "Autodesk is a publicly traded for-profit company."
+  },
+  {
+    "name": "Chief Strategy Officer, Pool Data",
+    "resolved_name": "Pool Data",
+    "description": "Pool Data is a privacy technology company. It offers tools to help organizations manage personal data and privacy requests. Gilbert Hill serves as its chief strategy officer.",
+    "description_source": "web_generated",
+    "naics_code": "513210",
+    "naics_title": "Software Publishers",
+    "confidence": 60,
+    "justification": "Pool Data appears to sell privacy software, fitting software publishers, though details are thin.",
+    "alternates": [
+      {
+        "naics_code": "518210",
+        "naics_title": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+        "confidence": 45,
+        "justification": "If delivered as a data processing service, this code would fit."
+      },
+      {
+        "naics_code": "541511",
+        "naics_title": "Custom Computer Programming Services",
+        "confidence": 30,
+        "justification": "Could be custom software development."
+      },
+      {
+        "naics_code": "541519",
+        "naics_title": "Other Computer Related Services",
+        "confidence": 20,
+        "justification": "Could be other computer related services."
+      }
+    ],
+    "category": "business/industry",
+    "category_confidence": 85,
+    "category_justification": "Described as a company with a C-suite, indicating a for-profit business, though not fully verified."
+  },
+  {
+    "name": "Advisor, The Rise of Privacy Tech",
+    "resolved_name": "The Rise of Privacy Tech (TROPT)",
+    "description": "The Rise of Privacy Tech describes itself as a privacy tech community. It connects privacy tech founders, investors, experts, buyers, and privacy professionals. Its stated mission is to fuel privacy technology and innovation.",
+    "description_source": "web_generated",
+    "naics_code": "813910",
+    "naics_title": "Business Associations",
+    "confidence": 50,
+    "justification": "Its core activity is convening and promoting the privacy tech industry, closest to a business association, though its legal form is unclear.",
+    "alternates": [
+      {
+        "naics_code": "813920",
+        "naics_title": "Professional Organizations",
+        "confidence": 40,
+        "justification": "Its privacy-professional community resembles a professional organization."
+      },
+      {
+        "naics_code": "541611",
+        "naics_title": "Administrative Management and General Management Consulting Services",
+        "confidence": 25,
+        "justification": "It may operate as an advisory or consulting venture."
+      },
+      {
+        "naics_code": "813990",
+        "naics_title": "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",
+        "confidence": 20,
+        "justification": "Could be a catch-all membership organization."
+      }
+    ],
+    "category": "unknown/unverified",
+    "category_confidence": 55,
+    "category_justification": "Its own submission calls it a community but does not state whether it is a company, nonprofit, or association."
+  },
+  {
+    "name": "Researcher & Associate, The Rise of Privacy Tech",
+    "resolved_name": "The Rise of Privacy Tech (TROPT)",
+    "description": "The Rise of Privacy Tech describes itself as a privacy tech community. It connects privacy tech founders, investors, experts, buyers, and privacy professionals. Its stated mission is to fuel privacy technology and innovation.",
+    "description_source": "web_generated",
+    "naics_code": "813910",
+    "naics_title": "Business Associations",
+    "confidence": 50,
+    "justification": "Its core activity is convening and promoting the privacy tech industry, closest to a business association, though its legal form is unclear.",
+    "alternates": [
+      {
+        "naics_code": "813920",
+        "naics_title": "Professional Organizations",
+        "confidence": 40,
+        "justification": "Its privacy-professional community resembles a professional organization."
+      },
+      {
+        "naics_code": "541611",
+        "naics_title": "Administrative Management and General Management Consulting Services",
+        "confidence": 25,
+        "justification": "It may operate as an advisory or consulting venture."
+      },
+      {
+        "naics_code": "813990",
+        "naics_title": "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",
+        "confidence": 20,
+        "justification": "Could be a catch-all membership organization."
+      }
+    ],
+    "category": "unknown/unverified",
+    "category_confidence": 55,
+    "category_justification": "Its own submission calls it a community but does not state whether it is a company, nonprofit, or association."
+  }
+]

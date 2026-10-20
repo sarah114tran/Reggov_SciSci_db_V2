@@ -111,7 +111,8 @@ def load_citation_resolved_works(
         resolved.match_source     = row.get("match_source") or resolved.match_source
         resolved.confidence       = row.get("confidence") if row.get("confidence") is not None else resolved.confidence
         resolved.status           = row.get("status") or resolved.status
-        resolved.openalex_work_id = work_id or resolved.openalex_work_id
+        # An unmatched row clears any work a previous (wrong) match linked.
+        resolved.openalex_work_id = work_id or (None if row.get("status") == "unmatched" else resolved.openalex_work_id)
 
         if is_new:
             inserted += 1
