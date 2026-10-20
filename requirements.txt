@@ -1,2 +1,5 @@
 sqlalchemy>=2.0
 pandas
+rapidfuzz
+pysbd
+tldextract

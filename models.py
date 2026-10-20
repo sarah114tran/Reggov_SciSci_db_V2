@@ -135,6 +135,8 @@ class CommentCitation(Base):
 
     domain          = Column(S())
     uncleaned_domain = Column(S())
+    domain_registered = Column(S())     # PSL registrable domain; see loaders/citation_domain_org.py
+    domain_org       = Column(S())      # short org name, e.g. blog.google -> google
     classifier_used  = Column(S(64))
 
     legal_citation_type = Column(S(64))
@@ -142,6 +144,140 @@ class CommentCitation(Base):
 
     comment        = relationship("PublicComment", back_populates="citations")
     resolved_works = relationship("CitationResolvedWork", back_populates="citation")
+
+
+class CitationContext(Base):
+    """Sentence before/after each citation_sentence, sliced verbatim from the
+    comment's markdown. Built by loaders/citation_context.py (run separately).
+
+    prev/next_sentence are NULL when context stops at a heading, table, or
+    footnote/document edge; prev/next_boundary records which.
+    """
+    __tablename__ = "citation_context"
+
+    citation_id     = Column(S(36), ForeignKey("comment_citations.citation_id"), primary_key=True)
+    comment_id      = Column(S(), nullable=False)
+    source_path     = Column(Text)          # relative to REGGOV_MD_ROOT
+    match_method    = Column(S(32))         # exact | exact_body_flow | anchor | fuzzy | unmatched | empty_sentence | no_source_file
+    match_score     = Column(Float)
+    n_hits          = Column(Integer)       # >1 when the sentence occurs more than once in the file
+    char_start      = Column(Integer)       # raw markdown offsets of source_sentence
+    char_end        = Column(Integer)
+    unit_type       = Column(S(16))         # body | footnote | table | heading
+    source_sentence = Column(Text)
+    prev_sentence   = Column(Text)
+    next_sentence   = Column(Text)
+    prev_boundary   = Column(S(32))
+    next_boundary   = Column(S(32))
+
+
+class CitationContextV2(Base):
+    """citation_context with exactly one core sentence per citation and
+    core ± 1 sentence of context. Built by loaders/citation_context_v2.py
+    (run separately; see its docstring for the matching changes).
+
+    core_method says how the core was chosen:
+      footnote_number – the sentence carrying this citation's footnote marker
+                        (relocated = 1 when it lies outside the matched span)
+      single          – the matched span is one sentence
+      link            – the span sentence containing citation_link
+      marker          – the only span sentence carrying any citation marker
+      span_last       – fallback: last sentence of a multi-sentence span
+    Text columns are raw markdown slices; *_clean columns are markup-free.
+    Several citations can share a window: dedupe on window_key when totalling.
+    """
+    __tablename__ = "citation_context_v2"
+
+    citation_id     = Column(S(36), ForeignKey("comment_citations.citation_id"), primary_key=True)
+    comment_id      = Column(S(), nullable=False)
+    source_path     = Column(Text)
+    match_method    = Column(S(32))         # exact | exact_nonbody | anchor | fuzzy | unmatched | empty_sentence | no_source_file
+    match_score     = Column(Float)
+    n_hits          = Column(Integer)
+    match_unit_type = Column(S(16))         # unit the LLM sentence matched in: body | footnote | table | heading
+    unit_type       = Column(S(16))         # unit of the core sentence
+    repaired        = Column(Boolean)       # page-break continuation found from the LLM sentence's tail
+    span_sentence   = Column(Text)          # whole matched LLM span
+    span_char_start = Column(Integer)       # raw markdown offsets of span_sentence
+    span_char_end   = Column(Integer)
+    n_span_sents    = Column(Integer)
+    n_marker_sents  = Column(Integer)       # span sentences carrying a citation marker
+    citation_number = Column(Integer)       # footnote number, when recovered
+    number_source   = Column(S(16))         # llm_marker | footnote_text | matched_footnote
+    relocated       = Column(Boolean)       # core moved outside the matched span to the marker sentence
+    core_method     = Column(S(32))
+    core_sentence   = Column(Text)
+    prev_sentence   = Column(Text)
+    next_sentence   = Column(Text)
+    core_clean      = Column(Text)
+    prev_clean      = Column(Text)
+    next_clean      = Column(Text)
+    prev_boundary   = Column(S(32))
+    next_boundary   = Column(S(32))
+    n_window_sents  = Column(Integer)       # 1 + available neighbours (max 3)
+    core_char_start = Column(Integer)       # raw markdown offsets, for deduping hedge cues
+    core_char_end   = Column(Integer)
+    prev_char_start = Column(Integer)
+    prev_char_end   = Column(Integer)
+    next_char_start = Column(Integer)
+    next_char_end   = Column(Integer)
+    window_key      = Column(S(64))         # "<comment_id>:<start>-<end>" of the whole window
+
+
+class CitationContextV3(Base):
+    """citation_context_v2 with an analysis scope per citation. Built by
+    loaders/citation_context_v3.py (run separately; see its docstring).
+
+    analysis_scope:
+      in_scope            LLM sentence matched body text, core is a body sentence
+      recovered           LLM sentence matched a footnote/reference; the body
+                          sentence carrying its marker was not captured by the LLM
+      excluded_duplicate  as recovered, but an in_scope row already covers that
+                          sentence (duplicate_of)
+      excluded_footnote / excluded_reference / excluded_table /
+      excluded_heading / excluded_bare_link
+      unmatched / empty_sentence / no_source_file
+    Analyse in_scope + recovered; dedupe on window_key when totalling.
+    """
+    __tablename__ = "citation_context_v3"
+
+    citation_id     = Column(S(36), ForeignKey("comment_citations.citation_id"), primary_key=True)
+    comment_id      = Column(S(), nullable=False)
+    source_path     = Column(Text)
+    analysis_scope  = Column(S(32))
+    recovered       = Column(Boolean)
+    duplicate_of    = Column(S(36))         # citation_id of the in_scope row covering a duplicate
+    match_method    = Column(S(32))         # exact | exact_nonbody | anchor | fuzzy | unmatched | empty_sentence | no_source_file
+    match_score     = Column(Float)
+    n_hits          = Column(Integer)
+    match_unit_type = Column(S(16))         # body | footnote | reference | table | heading
+    unit_type       = Column(S(16))         # unit of the core sentence
+    repaired        = Column(Boolean)
+    span_sentence   = Column(Text)
+    span_char_start = Column(Integer)
+    span_char_end   = Column(Integer)
+    n_span_sents    = Column(Integer)
+    n_marker_sents  = Column(Integer)
+    citation_number = Column(Integer)
+    number_source   = Column(S(16))         # llm_marker | footnote_text | matched_footnote
+    relocated       = Column(Boolean)
+    core_method     = Column(S(32))
+    core_sentence   = Column(Text)
+    prev_sentence   = Column(Text)
+    next_sentence   = Column(Text)
+    core_clean      = Column(Text)
+    prev_clean      = Column(Text)
+    next_clean      = Column(Text)
+    prev_boundary   = Column(S(32))
+    next_boundary   = Column(S(32))
+    n_window_sents  = Column(Integer)
+    core_char_start = Column(Integer)
+    core_char_end   = Column(Integer)
+    prev_char_start = Column(Integer)
+    prev_char_end   = Column(Integer)
+    next_char_start = Column(Integer)
+    next_char_end   = Column(Integer)
+    window_key      = Column(S(64))
 
 
 class CitationResolvedWork(Base):

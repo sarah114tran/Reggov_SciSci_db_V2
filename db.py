@@ -51,6 +51,8 @@ _COMMENT_CITATIONS_NEW_COLS = [
     ("unmatched_citation_reference_text",  "TEXT"),
     ("uncleaned_domain",                   "VARCHAR(255)"),
     ("classifier_used",                    "VARCHAR(64)"),
+    ("domain_registered",                  "VARCHAR(255)"),
+    ("domain_org",                         "VARCHAR(255)"),
 ]
 
 

@@ -12,6 +12,9 @@ from db import init_db
 from loaders.docket import load_fr_dockets
 from loaders.comments import load_comments
 from loaders.gemini_citations import load_gemini_citations
+from loaders.no_reference_rerun_citations import (
+    load_no_reference_rerun_citations, load_no_reference_rerun_research,
+)
 from loaders.citation_resolved_works import load_citation_resolved_works
 from loaders.citation_reclassification import (
     load_citation_reclassification,
@@ -21,6 +24,8 @@ from loaders.citation_reclassification import (
 )
 from loaders.rfi_self_reference_cleanup import load_rfi_self_reference_cleanup
 from loaders.edu_resources_reclassification import load_edu_resources_reclassification
+from loaders.citation_domain_org import load_citation_domain_org
+from loaders.research_domain_reclassification import load_research_domain_reclassification
 from loaders.comment_authorship import load_comment_authorship
 from loaders.comment_authors import load_comment_authors
 from loaders.naics_classification import (
@@ -30,6 +35,7 @@ from loaders.naics_classification import (
 )
 from loaders.additional_org_classification import load_additional_org_classification
 from loaders.individual_reclassification import load_individual_reclassification
+from loaders.long_comment_authors import load_long_comment_authors
 from models import CommentCitation
 
 # ── Configure your file paths here ────────────────────────────────────────────
@@ -46,6 +52,12 @@ DATA_FILES = {
     "unique_orgs_naics":            DATA_DIR / "unique_orgs_with_naics.json",
     "additional_org_classification": DATA_DIR / "additional_classified_orgs_final.csv",
     "individual_reclassification":  DATA_DIR / "classified_all.json",
+    "long_comment_authorship":      Path("long_comments") / "long_comment_authorship.json",
+    "long_comment_naics":           Path("long_comments") / "affiliation_naics_classified.json",
+    "long_comment_citations":       Path("long_comments") / "long_comment_citations.json",
+    "no_reference_rerun_citations": Path("long_comments") / "no_reference_rerun_citations.json",
+    "no_reference_rerun_resolved_works": Path("long_comments") / "no_reference_rerun_research_resolved_works.json",
+    "long_comment_resolved_works":  Path("long_comments") / "long_comment_research_resolved_works.json",
 }
 
 # If ALL comments in a single file belong to one docket, set this to the
@@ -118,6 +130,24 @@ def run():
         print(f"  [main] Cleared {deleted} existing comment_citations rows")
         load_gemini_citations(DATA_FILES["gemini_citations"], session, comment_key_map)
 
+    # ── 3a-1. Citations from long comments, which final_citation_data.json
+    #          never covered. Exported from the main repo by
+    #          long_comments/export_long_comment_citations_v2.py; already
+    #          classified by citation_classifier.py.
+    if _exists("long_comment_citations"):
+        load_gemini_citations(
+            DATA_FILES["long_comment_citations"], session, comment_key_map,
+            id_prefix="long_comment",
+        )
+
+    # ── 3a-1b. Re-extraction of 20 comments whose citations mostly lacked a
+    #           link/footnote/reference (Reggov_SciSci_db/no_reference_rerun/).
+    #           Replaces those comments' rows from 3 with the new extraction.
+    if _exists("no_reference_rerun_citations"):
+        load_no_reference_rerun_citations(
+            session, DATA_FILES["no_reference_rerun_citations"], comment_key_map,
+        )
+
     # ── 3a-2. Human-reviewed high-confidence reclassification (academic/gov/
     #          website/legal). claude_classified_citations_unverified.json's
     #          predicted_type is a different, unverified taxonomy from
@@ -140,10 +170,34 @@ def run():
     print("\n── Applying edu_resources reclassification ──────────────────────")
     load_edu_resources_reclassification(session)
 
+    # ── 3a-4. Normalized domain_registered / domain_org, after every pass
+    #          that rewrites citation_link/domain.
+    print("\n── Normalizing citation domains ──────────────────────────────────")
+    load_citation_domain_org(session)
+
+    # ── 3a-5. Publisher/journal domains (ieee.org except Spectrum, nature.com,
+    #          pnas.org) the news-domain CSV mislabels -> research_article.
+    #          Needs domain_registered from 3a-4.
+    print("\n── Applying research-domain reclassification ─────────────────────")
+    load_research_domain_reclassification(session)
+
     # ── 3b. Resolved OpenAlex works for citations with a confirmed match ───
     print("\n── Loading citation resolved works ─────────────────────────────")
     if _exists("citation_resolved_works"):
         load_citation_resolved_works(DATA_FILES["citation_resolved_works"], session)
+
+    # ── 3b-1. Resolved works for long-comment research_article citations.
+    #          Built in the main repo by long_comments/research_pipeline/
+    #          step4_merge_to_v2.py (Crossref >= 0.90 -> OpenAlex DOI, else
+    #          Gemini parse -> OpenAlex title confirm).
+    if _exists("long_comment_resolved_works"):
+        load_citation_resolved_works(DATA_FILES["long_comment_resolved_works"], session)
+
+    # ── 3b-2. Resolved works for the no_reference_rerun rows (every row sent
+    #          through long_comments/research_pipeline); citations with a
+    #          matched OpenAlex work -> research_article.
+    if _exists("no_reference_rerun_resolved_works"):
+        load_no_reference_rerun_research(session, DATA_FILES["no_reference_rerun_resolved_works"])
 
     # ── 4. Comment authorship backfill ────────────────────────────────────
     print("\n── Backfilling comment authorship ──────────────────────────────")
@@ -191,6 +245,17 @@ def run():
     if _exists("individual_reclassification"):
         load_individual_reclassification(
             DATA_FILES["individual_reclassification"], session
+        )
+
+    # ── 6c. Long-comment authors with classified affiliations. Runs after
+    #        propagate_first_author_org so it doesn't feed comment-level NAICS.
+    print("\n── Loading long-comment authors ──────────────────────────────────")
+    if _exists("long_comment_authorship") and _exists("long_comment_naics"):
+        load_long_comment_authors(
+            DATA_FILES["long_comment_authorship"],
+            DATA_FILES["long_comment_naics"],
+            session,
+            comment_key_map,
         )
 
     session.close()
